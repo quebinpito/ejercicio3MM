@@ -1,5 +1,16 @@
-
-.contenedor {
+nav{
     display:flex;
-    flex-direction: column-reverse;  
+    justify-content: space-between;
+}
+
+.logo {
+    display:flex;
+    flex-direction: row;  
+    justify-content: flex-start;
+}
+.box{
+    height: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
